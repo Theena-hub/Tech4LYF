@@ -1,0 +1,296 @@
+<html>
+    <head>
+        <!-- CSS only -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <style>
+            .home_world_main{
+
+            }
+            .home_world_main h4{
+                font-size: 28px;
+                font-weight: 600;
+                text-align: center;
+                margin-bottom:15px;
+            }
+            .home_world_main p{
+                width:100%;
+                font-size:14px;
+                text-align: center;
+                margin: auto;
+            }
+            .home_world_main .caro_img{
+                height: 200px;
+                display: flex;
+                /* margin-top: 40px; */
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+            .home_world_main .caro_img img{
+                width:320px;
+                height: auto;
+            }
+            .home_world_main .caro_img .overlay_caro{
+                position: absolute;
+                background:rgba(224, 64, 72, 1);
+                height:80px;
+                width:80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-radius:100px;
+
+            }
+            .home_world_main .caro_img .overlay_caro img{
+                width:20px;
+                height:auto;
+                margin-bottom: 5px;
+            }
+            .home_world_main .caro_img .overlay_caro h3{
+                font-size: 18px;
+                font-weight: 600;
+                color:#fff;
+                margin-bottom: 0px;
+            }
+            .home_world_main .caro_img .overlay_caro label{
+                color:#fff;
+                font-size: 10px;
+                margin:0;
+            }
+            @media (min-width:576px) {
+                .home_world_main .caro_img{
+                    height: 300px;
+                }
+                .home_world_main .caro_img img{
+                    width:500px;
+                }
+                .home_world_main p{
+                    width:80%;
+                    text-align: center;
+                    margin: auto;
+                }
+                
+            .home_world_main .caro_img .overlay_caro{
+                
+                height:80px;
+                width:80px;
+                
+            }
+            .home_world_main .caro_img .overlay_caro img{
+                width:20px;
+                
+                margin-bottom: 2px;
+            }
+            .home_world_main .caro_img .overlay_caro h3{
+                font-size: 18px;
+                font-weight: 600;
+                
+            }
+            .home_world_main .caro_img .overlay_caro label{
+                
+                font-size: 12px;
+                margin:0;
+            }
+            }
+            @media (min-width:768px) {
+                .home_world_main h4{
+                    font-size: 40px;
+                    margin-bottom:30px;
+
+                }
+            .home_world_main p{
+                font-size:16px;
+            }
+                .home_world_main .caro_img{
+                    height: 400px;
+                }
+                .home_world_main .caro_img img{
+                    width:600px;
+                }
+                .home_world_main p{
+                    width:60%;
+                    text-align: center;
+                    margin: auto;
+                }
+                
+            .home_world_main .caro_img .overlay_caro{
+                
+                height:100px;
+                width:100px;
+                
+            }
+            .home_world_main .caro_img .overlay_caro img{
+                width:25px;
+                
+                margin-bottom: 3px;
+            }
+            .home_world_main .caro_img .overlay_caro h3{
+                font-size: 20px;
+                font-weight: 600;
+                
+            }
+            .home_world_main .caro_img .overlay_caro label{
+                
+                font-size: 14px;
+                margin:0;
+            }
+            }
+            @media (min-width:992px) {
+                .home_world_main .caro_img{
+                    height: 450px;
+                }
+                .home_world_main .caro_img img{
+                    width:700px;
+                }
+                .home_world_main p{
+                    width:60%;
+                    text-align: center;
+                    margin: auto;
+                }
+                
+            .home_world_main .caro_img .overlay_caro{
+                
+                height:100px;
+                width:100px;
+                
+            }
+            .home_world_main .caro_img .overlay_caro img{
+                width:25px;
+                
+                margin-bottom: 3px;
+            }
+            .home_world_main .caro_img .overlay_caro h3{
+                font-size: 20px;
+                font-weight: 600;
+                
+            }
+            .home_world_main .caro_img .overlay_caro label{
+                
+                font-size: 14px;
+                margin:0;
+            }
+            }
+            @media (min-width:1200px) {
+                .home_world_main .caro_img{
+                    height: 500px;
+                }
+                .home_world_main .caro_img img{
+                    width:800px;
+                }
+                .home_world_main p{
+                    width:60%;
+                    text-align: center;
+                    margin: auto;
+                }
+                
+            .home_world_main .caro_img .overlay_caro{
+                
+                height:120px;
+                width:120px;
+                
+            }
+            .home_world_main .caro_img .overlay_caro img{
+                width:35px;
+                
+                margin-bottom: 5px;
+            }
+            .home_world_main .caro_img .overlay_caro h3{
+                font-size: 24px;
+                font-weight: 600;
+                
+            }
+            .home_world_main .caro_img .overlay_caro label{
+                
+                font-size: 16px;
+                margin:0;
+            }
+            }
+            @media (min-width:1400px) {
+                .home_world_main .caro_img{
+                    height: 600px;
+                }
+                .home_world_main .caro_img img{
+                    width:1000px;
+                }
+                .home_world_main p{
+                    width:60%;
+                    text-align: center;
+                    margin: auto;
+                }
+                
+            .home_world_main .caro_img .overlay_caro{
+                
+                height:150px;
+                width:150px;
+                
+            }
+            .home_world_main .caro_img .overlay_caro img{
+                width:45px;
+                
+                margin-bottom: 5px;
+            }
+            .home_world_main .caro_img .overlay_caro h3{
+                font-size: 28px;
+                font-weight: 600;
+                
+            }
+            .home_world_main .caro_img .overlay_caro label{
+                
+                font-size: 16px;
+                margin:0;
+            }
+            }
+        </style>
+        <div class="container">
+            <div class="home_world_main">
+                <div class="owl-carousel owl-theme">
+                    <div class="item" style="">
+                        <h4>We Are Humongous</h4>
+                        <p>Brand Builders, web developers & app developers, digital campaigners, and storytellers - all at one station. #Tech4LYF is your one-stop solution for all your digital needs. Besides </p>
+                        <div class="caro_img">
+                            <img src="./wor_map.svg" style="" alt="">
+                            <div class="overlay_caro">
+                                <img src="./caro_globe.png" alt="">
+                                <h3>15</h3>
+                                <label for="">Countries</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item" style="">
+                        <h4>We Are Humongous</h4>
+                        <p>Brand Builders, web developers & app developers, digital campaigners, and storytellers - all at one station. #Tech4LYF is your one-stop solution for all your digital needs. Besides </p>
+                        <div class="caro_img">
+                            <img src="./caro_cnt.png" style="" alt="">
+                            <div class="overlay_caro">
+                                <img src="./caro_globe.png" alt="">
+                                <h3>15</h3>
+                                <label for="">Countries</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="item"><h4>2</h4></div> -->
+                    
+                </div>
+            </div>
+        </div>
+        
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    items:1,
+    nav:true,
+    
+})
+        </script>
+    </body>
+</html>

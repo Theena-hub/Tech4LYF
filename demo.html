@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- <div class="container" style="text-align:center">
+        <h2>Our Team</h2>
+        <p>We work with companies all over the world. Join the experience
+            and become one of our valuable partners.</p>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4" id="section-1">
+                <div class="imgdiv1"><img src="img-11.png" alt="" style="width: 300px;height: 300px;">
+                </div>
+                <div class="icons1">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <img src="Line.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4" id="section-2">
+                <div class="imgdiv2"><img src="img-22.png" alt="" style="width: 300px;height: 300px;">
+                </div>
+                <div class="icons2">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <img src="Line.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-4" id="section-3">
+                <div class="imgdiv3"><img src="img-33.png" alt="" style="width: 300px;height: 300px;">
+                </div>
+                <div class="icons3">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <img src="Line.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+<style>
+    .navbar-brand{
+  color: rgb(255,255,255);
+  padding: 10px 0; 
+}
+.navbar-brand img{
+    width: 65px;
+    height: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 0px;
+  padding-right: 0px;
+  position:relative;
+}
+#navbar_top .nav-item{
+  margin:0 30px;
+}
+#navbar_top .nav-item .nav-link::before{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform: translateX(-50%);
+  height:3px;
+  width:00%;
+  background-color: #fff;
+  transition: .5s;
+}
+#navbar_top .nav-item .nav-link:hover::before{
+  width:80%;
+}
+#navbar_top .dropdown-toggle{
+  position:relative;
+}
+#navbar_top .dropdown-toggle::after{
+  position:absolute;
+  content:"\f107";
+  border:none;
+  right:-20px;
+  top:50%;
+  transform: translateY(-50%);
+  font-family: "FontAwesome";
+  font-weight: 200;
+}
+#navbar_top .navbar-nav .dropdown-menu{
+  left:50%;
+  transform: translateX(-50%);
+}
+.navbar-expand-lg .navbar-nav .nav-link{  
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23px;
+  font-style: normal;
+}
+@media (min-width:768px) {
+  .navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 18px;
+  }
+}
+@media (min-width:768px) {
+  .navbar-expand-lg .navbar-nav .nav-link{  
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    font-style: normal;
+  }
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  color: #FFFFFF;
+}
+.navbar-toggler{
+  height: auto;
+  border:none;
+}
+</style>
+<nav id="navbar_top" class="navbar navbar-expand-lg navbar-light" style="background: #E04048;padding: 0px;">
+    <div class="container">
+        <a class="navbar-brand" href="index.php">
+            <img src="img/t4l-logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" type="button"  data-bs-target="#navcol-1">
+            <span class="visually-hidden">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="navbar-nav ms-auto navigation" >
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+                </li>                                  
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a href="website.php" class="dropdown-item">Web Design & Development</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a href="android.php" class="dropdown-item">Android Apps</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a href="ios.php" class="dropdown-item">IOS Apps Development</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a href="custom-software.php" class="dropdown-item">Custom Software</a></li> 
+                    </ul>                         
+                  </li>  -->
+                <li class="nav-item">
+                    <a class="nav-link" href="casestudy-index.php">about</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.php">brand</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>                    
+            </ul>  
+        </div>
+    </div>
+</nav> 
+</body>
+
+
+</html>

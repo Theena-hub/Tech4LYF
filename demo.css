@@ -1,0 +1,57 @@
+.imgdiv1{ 
+    position: relative;
+    background-image: url("bg-1.png");
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgdiv2{
+    position: relative;
+    background-image: url("bg-2.png");
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgdiv3{
+    position: relative;
+    background-image: url("bg-3.png");
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size:contain ;
+    
+}
+
+.icons1,.icons2,.icons3{
+    display:inline-grid;
+
+}
+.icons1:hover{
+    transform: translateY(-100px);
+    transition-duration: 5s;
+}
+.icons2:hover{
+    transform: translateY(-100px);
+    transition-duration: 5s;
+}
+.icons3:hover{
+    transform: translateY(-100px);
+    transition-duration: 5s;
+}
+#section-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#section-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#section-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+

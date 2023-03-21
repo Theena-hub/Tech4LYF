@@ -1,0 +1,350 @@
+#about_text{
+    font-size: 38px;
+    font-weight:450;
+    text-align:justify;
+    color: #232323;
+    line-height: 52px;
+    letter-spacing: 0em;
+    /* font-style:normal; */
+    height: auto;
+    position: relative;
+    margin-top:6%;
+    margin-bottom:15px;
+  }
+    #about_text::before{
+      position: absolute;
+      content: " ";
+      height: 7px;
+      width: 100px;
+      left: 0;
+      bottom: -20px;
+      background-color: #E04048;
+      border-radius: 1px;
+  }
+    
+    
+  
+  @media(max-width:992px){
+    #about_text{
+      font-family:"Poppins", sans-serif;
+      font-size: 30px;
+    }
+  }
+  #about_para{
+    font-family:"inter";
+    font-size:24px;
+    line-height:43px;
+    /* font-style:normal; */
+    font-weight:750px;
+    text-align: justify;
+    color: #232323;
+    padding-top:30px;
+  }
+  @media(max-width:992px){
+    #about_para{
+      font-family: "Poppins", sans-serif;
+      font-size: 30px;
+    }
+  }
+ /* session4 */
+
+
+  #chat1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    
+    color: rgba(0, 0, 0, 0.5);
+  }
+  #chat2{
+    font-size: 32px;
+    font-weight:450;
+    text-align:justify;
+    color: #232323;
+    line-height:48px;
+    letter-spacing:0em;
+    height: auto;
+    position: relative;
+   
+    margin-bottom:20px;
+  }
+  #chat3
+  {
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.3889px;
+    line-height: 30px;
+    
+    color: rgba(35, 35, 35, 0.7);
+  }
+  
+   .head_ul{
+     width:45px;
+     height:4px;
+     background-color: #e04048;
+     border-radius: 10px;
+     margin-bottom: 15px;
+     position: relative;
+   }
+   .head_ul::before{
+     content: "";
+     position: absolute;
+     width:4px;
+     height: 4px;
+     border-radius: 4px;
+     background-color: #e04048;
+     right:-12px;
+     transform: translateY(-1px);
+     top:0;
+   }
+   
+  
+  .head_ul::after{
+    content: "";
+    position: absolute;
+    width:5px;
+    height:5px;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    /* border-radius: 4px; */
+    background-color: #e04048;
+    right:-24px;
+    transform: translateY(-1px);
+  
+    top:-1;
+  }
+  #chat11{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    
+    color: rgba(0, 0, 0, 0.5);
+    }
+  #chat12{
+    font-size: 32px;
+    font-weight:450;
+    text-align:justify;
+    color: #232323;
+    line-height:48px;
+    letter-spacing:0em;
+    height: auto;
+    position: relative;
+    
+    margin-bottom:20px;
+  }
+  
+    
+    
+  #chat13
+    {
+  
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21.3889px;
+      line-height: 30px;
+      
+      color: rgba(35, 35, 35, 0.7);
+    }
+    .head1_ul{
+      width:45px;
+      height:4px;
+      background-color: #e04048;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      position: relative;
+    }
+    .head1_ul::before{
+      content: "";
+      position: absolute;
+      width:4px;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #e04048;
+      right:-12px;
+      transform: translateY(-1px);
+      top:0;
+    }
+    
+    .head1_ul::after{
+     content: "";
+     position: absolute;
+     width:5px;
+     height: 5px;
+     clip-path: polygon(50% 0, 100% 100%, 0 100%);
+     /* border-radius: 4px; */
+     background-color: #e04048;
+     right:-24px;
+     transform: translateY(-1px);
+   
+     top:-1;
+   }
+    
+  #chat111{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    
+    color: rgba(0, 0, 0, 0.5);
+    }
+  
+  #chat222{
+    font-size: 32px;
+    font-weight:450;
+    text-align:justify;
+    color: #232323;
+    line-height: 48px;
+    letter-spacing:0em;
+    height: auto;
+    position: relative;
+    
+    margin-bottom:20px;
+  }
+    
+  #chat333
+    {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21.3889px;
+      line-height: 30px;
+      
+      color: rgba(35, 35, 35, 0.7);
+     
+     
+    }
+    .head2_ul{
+      width:45px;
+      height:4px;
+      background-color: #e04048;
+      border-radius: 10px;
+      margin-bottom:20px;
+      position: relative;
+    }
+    .head2_ul::before{
+      content: "";
+      position: absolute;
+      width:4px;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #e04048;
+      right:-12px;
+      transform: translateY(-1px);
+      top:0;
+    }
+    
+    .head2_ul::after{
+     content: "";
+     position: absolute;
+     width:5px;
+     height: 5px;
+     clip-path: polygon(50% 0, 100% 100%, 0 100%);
+     /* border-radius: 4px; */
+     background-color: #e04048;
+     right:-24px;
+     transform: translateY(-1px);
+   
+     top:-1;
+   }
+  /* session5 */
+  .pra
+  {
+    
+font-family: 'Inter';
+font-style: normal;
+font-family:"Poppins", sans-serif;;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+color: #303030;
+
+  }
+  .cli_img{
+    position: relative;
+    text-align: center;
+  }
+  .cli_img img{
+    position: relative;
+    width:100%;
+    height: auto;
+  }
+  .circ_overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    animation: circ_name 10s infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes circ_name {
+    0%{
+      transform:translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+      transform:translate(-50%, -50%) rotate(360deg);
+    }
+    
+  }
+  .cli_img::after{
+    position: absolute;
+    content: "";
+    height:80%;
+    width:4px;
+    right:30px;
+    top:10%;
+    background-color: #E04048;
+    border-radius: 5px;
+  }
+
+  .cli_caro .owl-item{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pra1
+  {
+    color:red;
+  }
+  .letters
+  {
+   top:1000px;
+   left:160px;
+   align-items: center;
+   line-height: 93px
+    
+  }
+  .client_page h1{
+
+    text-align:center;
+  }
+  .client_page h3{
+
+    text-align:center;
+  }
+  .client_page h5{
+
+    color: #E04048;
+    text-align:center;
+  }
+  .client_text{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-family:"Poppins", sans-serif;;
+    font-weight: 400;
+    font-size:25px;
+    line-height: 31px;
+    color: #303030;
+}
